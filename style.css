@@ -108,7 +108,8 @@ header {
     line-height: 3.5rem;
     margin-bottom: 2rem;
     opacity: 0;
-    animation: moveBanner 1s 0.7s forwards;
+    animation: moveBanner 0.9s forwards; 
+    animation-delay: 2.7s; 
 }
 
 .eu p {
@@ -117,7 +118,8 @@ header {
     text-shadow: 0.2rem 0.2rem rgba(49, 49, 49, 0.4);
     margin-bottom: 2rem;
     opacity: 0;
-    animation: moveBanner 1s 0.9s forwards;
+    animation: moveBanner 1.1s forwards;
+    animation-delay: 2.7s; 
 }
 
 @keyframes moveBanner {
