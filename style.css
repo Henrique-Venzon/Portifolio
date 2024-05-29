@@ -139,3 +139,23 @@ header h1{
 header h1:hover{
     color: rgb(79, 214, 255);
 }
+@media only screen and (max-width: 600px) {
+    header h1{
+        font-size: 15px;
+    }
+    .euImg{
+        display: none;
+    }
+    .eu h1 {
+        font-size: 3em;
+    }
+    
+    .eu p {
+        font-size: 1.5rem;
+    }
+}
+@media only screen and (min-width: 601px) and (max-width: 1025px) {
+    .euImg {
+        display: none;
+    }  
+}
