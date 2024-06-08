@@ -4,6 +4,12 @@
     list-style: none;
     text-decoration: none;
 }
+img {
+    -webkit-user-select: none; 
+    -moz-user-select: none;   
+    -ms-user-select: none;    
+    user-select: none;        
+  }
 #loading-screen {
     position: absolute;
     top: 0;
@@ -137,6 +143,7 @@ header h1{
     transition: 0.5s ease-in-out;
 }
 header h1:hover{
+    transform: scale(1.1);
     color: rgb(79, 214, 255);
 }
 @media only screen and (max-width: 600px) {
