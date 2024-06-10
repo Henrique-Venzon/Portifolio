@@ -7,11 +7,10 @@
 main {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 180vh;
     overflow: hidden;
   }
   .fundo-animado {
-    position: absolute;
     display: flex;
 }
 .fundo-animado span {
@@ -24,14 +23,14 @@ main {
     box-shadow: 0 0 10px 10px #707070,
     0 10px 50px #242424,
     0 10px 100px #242424;
-    animation: animar calc(80s / var(--i)) linear infinite;
+    animation: animar calc(100s / var(--i)) linear infinite;
 }
 @keyframes animar {
     0% {
-        transform: translateY(100vh) scale(0);
+        transform: translateY(200vh) scale(0.4);
     }
     100% {
-        transform: translateY(-10vh) scale(1);
+        transform: translateY(-5vh) scale(0.7);
     }
 }
 .fundo-animado span:nth-of-type(even) {
@@ -39,4 +38,64 @@ main {
     box-shadow: 0 0 10px 10px #3d3d3d,
     0 10px 50px #696969,
     0 10px 100px #808080;
+}
+
+.cardsProjetos{
+    margin-top: 0vh;
+    width: 100%;
+    height: 190vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.cards{
+    margin-bottom: 10vh;
+    height: 450px;
+    background-color: #131313;
+    width: 90%;
+    border-radius:60px;
+    display: flex;
+    box-shadow: 0 0 40px black;
+    transition: 1.2s ease-in-out;
+}
+.cards:hover{
+    transform: scale(1.05);
+}
+.contexto{
+    width: 55%;
+}
+.imagemButton{
+    width: 45%;
+    display: flex;
+    justify-content: center;    
+}
+.divisao{
+    width: 72%;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+.imagemButton img{
+    width: 95%;
+}
+.imagemButton button{
+    margin-top: 2%;
+    width: 30%;
+    justify-content: center;
+    display: flex;
+    padding: 8px 0px;
+    border-radius: 15px;
+    border: none;
+    background-color: #fff;
+    transition: .8s ease-in-out;
+    cursor: pointer;
+}
+.imagemButton button:hover{
+    transform: scale(1.2);
 }
