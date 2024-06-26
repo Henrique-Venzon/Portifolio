@@ -10,19 +10,38 @@ main {
     height: 180vh;
     overflow: hidden;
   }
-  .fundo-animado {
+body::-webkit-scrollbar {
+    width: 14px;      
+  }
+  
+body::-webkit-scrollbar-track {
+    background: #000000;    
+  }
+  
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 255, 255);      
+    border: 7px solid #2400a7;  
+    border-radius: 0;
+  }
+img {
+    -webkit-user-select: none; 
+    -moz-user-select: none;   
+    -ms-user-select: none;    
+    user-select: none;        
+  }
+.fundo-animado {
     display: flex;
 }
 .fundo-animado span {
     width: 30px;
     height: 30px;
-    background: #4d4d4d;
+    background: #005475;
     margin: 0 -2px;
     border-radius: 50%;
-    background-color: #4d4d4d;
-    box-shadow: 0 0 10px 10px #707070,
-    0 10px 50px #242424,
-    0 10px 100px #242424;
+    background-color: #00719e;
+    box-shadow: 0 0 10px 10px #006992,
+    0 10px 50px #003144,
+    0 10px 100px #003042;
     animation: animar calc(100s / var(--i)) linear infinite;
 }
 @keyframes animar {
@@ -72,20 +91,39 @@ main {
 }
 .contexto p {
     color: #fff;
-    font-size: 20px;
     margin-top: 3%;
     text-align: center;
     margin-left: 5%;
     margin-right: 5%;
 }
+.linkpage{
+    font-size: 20px;
+}
+.codemonetP{
+    font-size: 16px;
+}
 .contexto h1{
     color: white;
     margin-top: 7%;
-    animation: digitar 3s steps(22, end) ;
     width: 24.8ch;
     white-space: nowrap;
     overflow: hidden;
     text-align: center;
+
+}
+.h1linkpage{
+    background: linear-gradient(45deg, #6d94ff, #1842ff, #0e00cf, #2d65ff);
+    background-size: 400% 100%;
+    animation: degrade 10s linear infinite alternate, digitar 3s steps(22, end);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.h1codemonet{
+    background: linear-gradient(45deg, #b331ff, #9718ff, #7100bd, #46006e);
+    background-size: 400% 100%;
+    animation: degrade 10s linear infinite alternate, digitar 3s steps(22, end);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 .imagemButton{
     width: 45%;
@@ -103,8 +141,16 @@ main {
 }
 .imagemButton img{
     width: 95%;
+    -webkit-user-select: none; 
+    -moz-user-select: none;   
+    -ms-user-select: none;    
+    user-select: none;     
+}
+.codemonet{
+    filter: drop-shadow(0 0 15px #450085);
 }
 .imagemButton a{
+    color: #0a009c;
     margin-top: 2%;
     width: 30%;
     justify-content: center;
@@ -124,3 +170,11 @@ main {
         width: 0;
     }
 }
+@keyframes degrade {
+    0% {
+      background-position-x: 0%;
+    }
+    100% {
+      background-position-x: 400%;
+    }
+  }
