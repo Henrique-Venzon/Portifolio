@@ -4,35 +4,50 @@
     <meta name="theme-color" content="#000">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--CSS-->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="fixos/header.css" />
-    <link rel="stylesheet" href="fixos/loading.css" />
+    <!--JS-->
+    <script src="js/hiperslinks.js"></script>
+    <script src="js/reveal.js" defer></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <!--TITULO-->
     <title>Portfólio</title>
   </head>
   <body>
-    <div id="loading-screen">
-        <div id="loading-bar"></div>
-        <div id="loading-text">0%</div>
-    </div>
+
     <header>
-        <h1 id="Inicio">Início</h1>
-        <h1 id="sobreMim">Sobre mim</h1>
-        <h1 id="projetos">Projetos</h1>
+        <h1>< Henrique Venzon /></h1>
     </header>
         <div class="apresentacao" >
             <div class="imagemFundo">
-                <img src="img/ti.jpg" alt="imagem_fundo">
+                <img  src="img/ti.jpg" alt="imagem_fundo">
             </div>
             <div class="eu">
-                <h1>Desenvolverdor Front End</h1>
-                <p> < Henrique Fransciso Venzon /> </p>
+                <h1 class="front-animation">Desenvolverdor Front End</h1>
+                <p class="front-p-animation"> < Henrique Fransciso Venzon /> </p>
             </div>
-            <img class="euImg" src="img/euHD.png" alt="minhaImagem" fetchpriority="high">
+            <img class="euImg eu-animation" src="img/euHD.png" alt="minhaImagem" fetchpriority="high">
 
         </div>
-        
+        <div class="container_sobre">
+            <div class="textSobre">
+                <div class="marginText">
+            <h1 class="textWhite textWhite-animation">SOBRE</h1>
+            <h1 class="textBlue textBlue-animation">MIM</h1>
+        </div>
+        </div>
+        <div class="contexto-eu">
+            <p class="p1-animation">Olá sou Henrique Venzon, estudante do 3º ano do ensino médio na escola Sesi-Itajaí, em Santa Catarina. Atualmente, estou no 2º e último ano do curso Técnico de Desenvolvimento de Sistemas, onde tenho me dedicado intensamente ao aprendizado e à prática das mais diversas tecnologias de desenvolvimento web. Nascido em 2007, em Jaraguá do Sul, e atualmente morando em Ilhota, tenho 17 anos e uma paixão crescente pelo mundo da programação.</p>
+            <p class="p2-animation">Ao longo do curso, adquiri habilidades sólidas em HTML, CSS, JavaScript, PHP e MySQL. Essas competências me permitem desenvolver desde o front-end de sites e aplicações web, proporcionando interfaces atraentes e intuitivas, até o back-end, garantindo a funcionalidade e a eficiência dos sistemas que crio. A combinação dessas habilidades me capacita a trabalhar em projetos completos, compreendendo tanto a aparência quanto o funcionamento interno das aplicações.</p>
+            <p class="p3-animation">Meu objetivo é continuar evoluindo como desenvolvedor e contribuir com projetos inovadores e impactantes. Tenho um grande interesse em aprofundar meus conhecimentos e explorar novas áreas da tecnologia. Acredito que a educação contínua e a busca por novos desafios são essenciais para o crescimento na área de desenvolvimento de sistemas, e estou preparado para enfrentar o futuro com entusiasmo e dedicação.</p>
+        </div>
+        </div>
+
    </body>
 
-   <script src="js/loading-screen.js"></script>
-   <script src="js/hiperslinks.js"></script>
 </html>
