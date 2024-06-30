@@ -44,15 +44,22 @@ revelar.reveal('.p1-animation',
 })
 revelar.reveal('.p2-animation',
     {
-    delay:600,
+    delay:500,
     duration: 1500,
     distance: '70px',
     origin: 'left'
 })
 revelar.reveal('.p3-animation',
     {
-    delay:700,
+    delay:500,
     duration: 1500,
     distance: '70px',
     origin: 'right'
+})
+revelar.reveal('.destaque-animation',
+    {
+    delay:150,
+    duration: 1500,
+    distance: '70px',
+    origin:'bottom'
 })

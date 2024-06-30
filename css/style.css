@@ -21,21 +21,21 @@ body::-webkit-scrollbar {
   
 body::-webkit-scrollbar-track {
     background-color: #000000; 
-    border-left: 1px white solid;
   }
   
 body::-webkit-scrollbar-thumb {
     background-color: #f1f1f1;
   }
 .textBlue-animation,.textWhite-animation,.front-p-animation
-,.front-animation,.eu-animation,.p1-animation,.p2-animation,.p3-animation{
+,.front-animation,.eu-animation,.p1-animation,.p2-animation
+,.p3-animation,.destaque-animation{
     visibility: hidden;
 }
 
 
 .apresentacao {
     width: 100%;
-    height: 100vh;
+    height: 110vh;
     position: relative;
     overflow: hidden;
 }
@@ -143,10 +143,82 @@ body::-webkit-scrollbar-thumb {
     align-items: center;
 }
 .contexto-eu p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-bottom: 16px;
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
     color: #fff;
     font-size: 19px;
+}
+
+.container-hardSkills{
+    height: 35vh;
+    background-color: #ffffff;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.destaque{
+    background: linear-gradient(45deg, #060053,  #003cff, #3f32ff);
+    background-size: 300% 100%;
+    animation: degrade 10s linear infinite alternate;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 5vh;
+    margin-bottom: 4vh;
+    font-size: 68px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+@keyframes degrade {
+    0% {
+      background-position-x: 0%;
+    }
+    100% {
+      background-position-x: 300%;
+    }
+  }
+.skills-icons{
+    display: flex;
+    justify-content: center;
+}
+.skills-icons i{
+    margin: 10px 50px;
+    font-size: 64px;
+    transition: 0.3s ease-in-out;
+}
+.skills-icons .fa-html5:hover {
+    color: #e34f26;
+    transform: translateY(-18px);
+}
+
+.skills-icons .fa-css3-alt:hover {
+    color: #1572b6;
+    transform: translateY(-18px);
+}
+
+.skills-icons .fa-js:hover {
+    color: #f7df1e;
+    transform: translateY(-18px);
+}
+
+.skills-icons .fa-node:hover {
+    color: #339933;
+    transform: translateY(-18px);
+}
+
+.skills-icons .fa-php:hover {
+    color: #777bb4;
+    transform: translateY(-18px);
+}
+
+.skills-icons .fa-github:hover {
+    color: #000000;
+    transform: translateY(-18px);
+}
+.skills-icons .fa-database:hover{
+    color: #dada00;
+    transform: translateY(-18px);
 }
