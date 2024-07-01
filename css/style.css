@@ -16,7 +16,7 @@ html, body {
 }
 body::-webkit-scrollbar {
     height: 5px; 
-    width: 15px;
+    width: 4px;
   }
   
 body::-webkit-scrollbar-track {
@@ -24,11 +24,12 @@ body::-webkit-scrollbar-track {
   }
   
 body::-webkit-scrollbar-thumb {
-    background-color: #f1f1f1;
+    background-color: #e7e7e7;
   }
 .textBlue-animation,.textWhite-animation,.front-p-animation
 ,.front-animation,.eu-animation,.p1-animation,.p2-animation
-,.p3-animation,.destaque-animation{
+,.p3-animation,.destaque-animation,.tituloProjeto,.link-page
+,.code-monet{
     visibility: hidden;
 }
 
@@ -185,6 +186,7 @@ body::-webkit-scrollbar-thumb {
     justify-content: center;
 }
 .skills-icons i{
+    color: #000000;
     margin: 10px 50px;
     font-size: 64px;
     transition: 0.3s ease-in-out;
@@ -215,10 +217,118 @@ body::-webkit-scrollbar-thumb {
 }
 
 .skills-icons .fa-github:hover {
-    color: #000000;
+    color: #000;
     transform: translateY(-18px);
 }
 .skills-icons .fa-database:hover{
     color: #dada00;
     transform: translateY(-18px);
+}
+
+.container-projetos{
+    height: 180vh ;
+    background-color: #000000;
+    text-align: center;
+}
+.div-titulo{
+    margin-top: 5vh;
+    display: block;
+}
+
+.tituloProjeto{
+    color: #ffffff;
+    text-shadow: 6px 6px 8px #020096d8;
+    font-size: 100px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.projeto{
+    width: 70vw;
+    height: 60vh;
+    display: flex;
+    background-color: #050505;
+    border-radius: 30px;
+    box-shadow: 0 0 7px #fff,
+                0 0 14px #fff;
+}
+.link-page{
+    margin-left: 7%;
+    margin-top: 4%;
+}
+.contexto{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contexto p {
+    color: #fff;
+    margin-top: 3%;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.linkpage{
+    font-size: 17px;
+}
+.imagemButton{
+    width: 45%;
+    display: flex;
+    justify-content: center;    
+    border-left: 1.5px solid #ffffff;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+.divisao{
+    
+    width: 72%;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.imagemButton img{
+    width: 95%;
+    -webkit-user-select: none; 
+    -moz-user-select: none;   
+    -ms-user-select: none;    
+    user-select: none;     
+}
+.imagemButton a{
+    color: #0a009c;
+    margin-top: 4%;
+    width: 30%;
+    justify-content: center;
+    display: flex;
+    padding: 8px 0px;
+    border-radius: 15px;
+    border: none;
+    background-color: #fff;
+    transition: .8s ease-in-out;
+    cursor: pointer;
+}
+.imagemButton a:hover{
+    transform: scale(1.2);
+}
+.contexto h1{
+    color: white;
+    margin-top: 7%;
+    width: 24.8ch;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+
+}
+.h1linkpage{
+    background: linear-gradient(45deg, #6d94ff, #1842ff, #0e00cf, #2d65ff);
+    background-size: 400% 100%;
+    animation: degrade 10s linear infinite alternate, digitar 3s steps(22, end);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.code-monet{
+    margin-left: 23%;
+    margin-top: 4%;
 }

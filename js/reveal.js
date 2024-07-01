@@ -63,3 +63,23 @@ revelar.reveal('.destaque-animation',
     distance: '70px',
     origin:'bottom'
 })
+revelar.reveal('.tituloProjeto',
+    {
+    duration: 1200,
+    distance: '70px',
+    origin:'top'
+})
+revelar.reveal('.link-page',
+    {
+    duration: 3500,
+    delay:500,
+    distance: '130px',
+    origin:'left'
+})
+revelar.reveal('.code-monet',
+    {
+    duration: 3500,
+    delay:500,
+    distance: '130px',
+    origin:'right'
+})
