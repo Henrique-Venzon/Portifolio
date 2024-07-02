@@ -12,6 +12,7 @@ img {
   }
 
 html, body {
+    background-color: #000;
     overflow-x: hidden;
 }
 body::-webkit-scrollbar {
@@ -155,7 +156,7 @@ body::-webkit-scrollbar-thumb {
 
 .container-hardSkills{
     height: 35vh;
-    background-color: #ffffff;
+    background-color: #000000;
     text-align: center;
     align-items: center;
     display: flex;
@@ -186,7 +187,7 @@ body::-webkit-scrollbar-thumb {
     justify-content: center;
 }
 .skills-icons i{
-    color: #000000;
+    color: #ffffff;
     margin: 10px 50px;
     font-size: 64px;
     transition: 0.3s ease-in-out;
@@ -243,7 +244,7 @@ body::-webkit-scrollbar-thumb {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .projeto{
-    width: 70vw;
+    width: 80vw;
     height: 60vh;
     display: flex;
     background-color: #050505;
@@ -252,7 +253,7 @@ body::-webkit-scrollbar-thumb {
                 0 0 14px #fff;
 }
 .link-page{
-    margin-left: 7%;
+    margin-left: 10vw;
     margin-top: 4%;
 }
 .contexto{
@@ -329,6 +330,6 @@ body::-webkit-scrollbar-thumb {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .code-monet{
-    margin-left: 23%;
+    margin-left: 10vw;
     margin-top: 4%;
 }
