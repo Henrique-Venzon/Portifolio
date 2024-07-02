@@ -1,7 +1,3 @@
-document.getElementById('Inicio').addEventListener('click', function() {
-    window.location.href = 'index.html'; 
-});
-
-document.getElementById('projetos').addEventListener('click', function() {
-    window.location.href = 'projetos.html'; 
+document.getElementById('link-page').addEventListener('click', function() {
+    window.location.href = 'https://link-bio-alpha.vercel.app/'; 
 });
