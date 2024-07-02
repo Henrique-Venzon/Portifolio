@@ -23,28 +23,28 @@ revelar.reveal('.eu-animation',
 })
 revelar.reveal('.textWhite-animation',
     {
-    delay:200,
+    delay:450,
     duration: 2100,
     distance: '100px',
     origin: 'left'
 })
 revelar.reveal('.textBlue-animation',
     {
-    delay:200,
+    delay:450,
     duration: 2100,
     distance: '100px',
     origin: 'right'
 })
 revelar.reveal('.p1-animation',
     {
-    delay:500,
+    delay:600,
     duration: 2100,
     distance: '100px',
     origin: 'right'
 })
 revelar.reveal('.p2-animation',
     {
-    delay:500,
+    delay:550,
     duration: 1500,
     distance: '70px',
     origin: 'left'
@@ -66,6 +66,7 @@ revelar.reveal('.destaque-animation',
 revelar.reveal('.tituloProjeto',
     {
     duration: 1200,
+    delay:600,
     distance: '70px',
     origin:'top'
 })

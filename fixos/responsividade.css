@@ -65,3 +65,27 @@
         font-size: 32px;
     }
 }
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+
+  }
+
+@media only screen and (min-width: 1441px) {
+    header h1{
+        font-size: 52px;
+    }
+    .textWhite{
+    margin-left: -85px;
+    font-size: 152px;
+    text-shadow: 7px 7px 9px #020096d8;
+    }
+    .textBlue{
+        margin-top: -87px;
+        margin-left: 335px;
+        font-size: 144px;
+        text-shadow: 5px 5px 10px #ffffff8f;
+    }
+    .contexto-eu p{
+        margin-bottom: 16px;
+        font-size: 25px;
+    }
+}
