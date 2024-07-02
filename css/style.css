@@ -277,6 +277,6 @@ video {
     font-size: 40px;
     text-shadow: 0 0 10px black;
 }
-#link-page{
+#link-page,#code-monet{
     cursor: pointer;
 }

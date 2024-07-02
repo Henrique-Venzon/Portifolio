@@ -42,6 +42,35 @@
         margin: 10px 16px;
         font-size: 32px;
     }
+    .link-page{
+        margin-left: 0;
+    }
+    .code-monet{
+        margin-right: 0;
+    }
+    .mockup img{
+        width: 98vw;
+        height:47vh;
+    }
+    .text-projeto{
+        text-align: center;
+        z-index: 1;
+    }
+    .text-projeto h1{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-top: -7.4vh;
+        font-size: 60px;
+        color: #fff;
+        text-shadow: 0 0 10px black,
+                     0 0 25px #000;
+    }
+    .text-projeto p{
+        margin-top: -1.2vh;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #fff;
+        font-size: 27px;
+        text-shadow: 0 0 10px black;
+    }
 }
 @media only screen and (min-width: 601px) and (max-width: 1025px) {
     .euImg,.eu-animation {
