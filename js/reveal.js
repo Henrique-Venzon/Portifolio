@@ -56,12 +56,55 @@ revelar.reveal('.p3-animation',
     distance: '70px',
     origin: 'right'
 })
+revelar.reveal('.fa-html5',
+    {
+    delay:200,
+    duration: 1500,
+    distance: '70px',
+    origin: 'left'
+})
+revelar.reveal('.fa-css3-alt',
+    {
+    delay:200,
+    duration: 1500,
+    distance: '70px',
+    origin: 'left'
+})
+revelar.reveal('.fa-js',
+    {
+    delay:200,
+    duration: 1500,
+    distance: '70px',
+    origin: 'left'
+})
+revelar.reveal('.fa-php',
+    {
+    delay:200,
+    duration: 1500,
+    distance: '70px',
+    origin: 'right'
+})
+revelar.reveal('.fa-github',
+    {
+    delay:200,
+    duration: 1500,
+    distance: '70px',
+    origin: 'right'
+})
+revelar.reveal('.fa-database',
+    {
+    delay:200,
+    duration: 1500,
+    distance: '70px',
+    origin: 'right'
+})
 revelar.reveal('.destaque-animation',
     {
     delay:150,
     duration: 1500,
     distance: '70px',
     origin:'bottom'
+    
 })
 revelar.reveal('.tituloProjeto',
     {
@@ -84,3 +127,4 @@ revelar.reveal('.code-monet',
     distance: '130px',
     origin:'right'
 })
+

@@ -30,7 +30,8 @@ body::-webkit-scrollbar-thumb {
 .textBlue-animation,.textWhite-animation,.front-p-animation
 ,.front-animation,.eu-animation,.p1-animation,.p2-animation
 ,.p3-animation,.destaque-animation,.tituloProjeto,.link-page
-,.code-monet{
+,.code-monet,.fa-html5,.fa-css3-alt,.fa-js,.fa-php,.fa-github
+,.fa-database{
     visibility: hidden;
 }
 
@@ -189,36 +190,29 @@ video {
 }
 .skills-icons .fa-html5:hover {
     color: #e34f26;
-    transform: translateY(-18px);
 }
 
 .skills-icons .fa-css3-alt:hover {
     color: #1572b6;
-    transform: translateY(-18px);
 }
 
 .skills-icons .fa-js:hover {
     color: #f7df1e;
-    transform: translateY(-18px);
 }
 
 .skills-icons .fa-node:hover {
     color: #339933;
-    transform: translateY(-18px);
 }
 
 .skills-icons .fa-php:hover {
     color: #777bb4;
-    transform: translateY(-18px);
 }
 
 .skills-icons .fa-github:hover {
     color: #000;
-    transform: translateY(-18px);
 }
 .skills-icons .fa-database:hover{
     color: #dada00;
-    transform: translateY(-18px);
 }
 
 .container-projetos{
