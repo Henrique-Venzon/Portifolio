@@ -117,7 +117,23 @@
     }
 }
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {
-
+.link-page{
+        margin-left: 0;
+    }
+    .code-monet{
+        margin-right: 0;
+    }
+    .mockup img{
+        width: 72vw;
+        height:40vh;
+    }
+    .destaque{
+        font-size: 75px;
+    }
+    .text-projeto h1{
+        margin-top: -5.9vh;
+        font-size: 75px;
+    }
   }
 
 @media only screen and (min-width: 1441px) {

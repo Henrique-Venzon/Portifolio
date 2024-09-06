@@ -58,14 +58,14 @@ revelar.reveal('.p3-animation',
 })
 revelar.reveal('.fa-html5',
     {
-    delay:200,
+    delay:750,
     duration: 1500,
     distance: '70px',
     origin: 'left'
 })
 revelar.reveal('.fa-css3-alt',
     {
-    delay:200,
+    delay:500,
     duration: 1500,
     distance: '70px',
     origin: 'left'
@@ -86,14 +86,14 @@ revelar.reveal('.fa-php',
 })
 revelar.reveal('.fa-github',
     {
-    delay:200,
+    delay:500,
     duration: 1500,
     distance: '70px',
     origin: 'right'
 })
 revelar.reveal('.fa-database',
     {
-    delay:200,
+    delay:750,
     duration: 1500,
     distance: '70px',
     origin: 'right'
