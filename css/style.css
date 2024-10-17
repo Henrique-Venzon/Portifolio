@@ -29,9 +29,9 @@ body::-webkit-scrollbar-thumb {
   }
 .textBlue-animation,.textWhite-animation,.front-p-animation
 ,.front-animation,.eu-animation,.p1-animation,.p2-animation
-,.p3-animation,.destaque-animation,.tituloProjeto,.link-page
-,.code-monet,.fa-html5,.fa-css3-alt,.fa-js,.fa-php,.fa-github
-,.fa-database{
+,.p3-animation,.destaque-animation,.tituloProjeto,.left
+,.right,.fa-html5,.fa-css3-alt,.fa-js,.fa-php,.fa-github
+,.fa-database,.titulo-rd{
     visibility: hidden;
 }
 
@@ -216,7 +216,6 @@ video {
 }
 
 .container-projetos{
-    height: 180vh ;
     background-color: #000000;
     text-align: center;
 }
@@ -242,7 +241,7 @@ video {
     display: flex;
     flex-direction: column;
 }
-.link-page{
+.left{
     margin-left: -30vw;
 }
 .code-monet{
@@ -271,6 +270,94 @@ video {
     font-size: 40px;
     text-shadow: 0 0 10px black;
 }
-#link-page,#code-monet{
+#link-page,#code-monet,#logconnect{
     cursor: pointer;
+}
+
+.container-rede-sociais{
+    margin-bottom: 15vh;
+    margin-top: 12vh;
+}
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+svg {
+	font-family: "Russo One", sans-serif;
+	width: 100%; height: 100%;
+}
+svg text {
+	animation: stroke 5s infinite alternate;
+	stroke-width: 2;
+	stroke: #ffffff;
+	font-size: 168px;
+}
+@keyframes stroke {
+	0%   {
+		fill: rgba(255, 255, 255, 0); stroke: rgb(255, 255, 255);
+		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+	}
+	70%  {fill: rgba(255, 255, 255, 0); stroke: rgb(255, 255, 255); }
+	80%  {fill: rgba(0,0,0,0); stroke: rgb(255, 255, 255); stroke-width: 3; }
+	100% {
+		fill: rgb(255, 255, 255); stroke: rgba(0,0,0,0);
+		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+	}
+}
+.rede-sociais{
+    margin-top: 4vh;
+    display: flex;
+    justify-content: center
+}
+.rede-sociais button{
+    width: 100px;
+    height: 100px;
+    border-radius: 40px;
+    border: none;
+    box-shadow: 0 0 15px #fff;
+    transition: 0.8s ease-in-out;
+    margin: 4vw;
+  }
+  .rede-sociais button:hover{
+    transform: scale(1.2);
+  }
+  .linkedin{
+    background-color: #1572b6;
+  }
+  .linkedin-ic{
+    color: #fff;
+  }
+  .github{
+    background: #fff;
+  }
+  .github-ic{
+    color: #000;
+  }
+  .whatsapp{
+    background-color: #077707;
+  }
+  .whatsapp-ic{
+    color: #fff;
+  }
+  .email{
+    background-color: red;
+  }
+  .email-ic{
+    color: #fff;
+  }
+  .instagram{
+    background: #833ab4;
+    background: linear-gradient(
+      to right,
+      #833ab4,#fd1d1d,#fcb045
+    );
+  }
+  .instagram-ic{
+    color: #fff;
+  }
+  .icone {
+  text-decoration: none;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 79px;
 }

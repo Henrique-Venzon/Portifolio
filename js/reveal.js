@@ -113,18 +113,25 @@ revelar.reveal('.tituloProjeto',
     distance: '70px',
     origin:'top'
 })
-revelar.reveal('.link-page',
+revelar.reveal('.left',
     {
     duration: 3500,
-    delay:900,
+    delay:650,
     distance: '130px',
     origin:'left'
 })
-revelar.reveal('.code-monet',
+revelar.reveal('.right',
     {
     duration: 3800,
-    delay:900,
+    delay:650,
     distance: '130px',
     origin:'right'
+})
+revelar.reveal('.titulo-rd',
+    {
+    duration: 3000,
+    delay:500,
+    distance: '130px',
+    origin:'bottom'
 })
 

@@ -42,10 +42,10 @@
         margin: 10px 16px;
         font-size: 28px;
     }
-    .link-page{
+    .left{
         margin-left: 0;
     }
-    .code-monet{
+    .right{
         margin-right: 0;
     }
     .mockup img{
@@ -109,10 +109,10 @@
         margin: 10px 16px;
         font-size: 32px;
     }
-    .link-page{
+    .left{
         margin-left: 0;
     }
-    .code-monet{
+    .right{
         margin-right: 0;
     }
     .mockup img{
@@ -169,10 +169,10 @@
         margin-top: -5.9vh;
         font-size: 80px;
     }
-    .link-page{
+    .left{
         margin-left: 0;
     }
-    .code-monet{
+    .right{
         margin-right: 0;
     }
     .mockup img{
@@ -220,10 +220,10 @@
         margin-top: -5.9vh;
         font-size: 80px;
     }
-    .link-page{
+    .left{
         margin-left: 0;
     }
-    .code-monet{
+    .right{
         margin-right: 0;
     }
     .mockup img{
@@ -236,10 +236,10 @@
     }
 }
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {
-.link-page{
+    .left{
         margin-left: 0;
     }
-    .code-monet{
+    .right{
         margin-right: 0;
     }
     .mockup img{
