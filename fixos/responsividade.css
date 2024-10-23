@@ -64,6 +64,28 @@
         margin-top: -1.2vh;
         font-size: 26px;
     }
+    svg text {
+        animation: stroke 5s infinite alternate;
+        stroke-width: 2;
+        stroke: #ffffff;
+        font-size: 36px;
+    }
+    .button {
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+        margin-left: 14px;
+      }
+      
+      .button svg {
+        width: 30px;
+        height: 30px;
+      }
+      .button::before {
+        width: 45px;
+        height: 45px;
+        border-radius: 50px;
+      }
 }
 @media only screen and (min-width: 345px) and (max-width: 600px) {
 
@@ -131,6 +153,28 @@
         margin-top: -1.2vh;
         font-size: 26px;
     }
+    svg text {
+        animation: stroke 5s infinite alternate;
+        stroke-width: 2;
+        stroke: #ffffff;
+        font-size: 42px;
+    }
+    .button {
+        width: 45px;
+        height: 45px;
+        border-radius: 50px;
+        margin-left: 20px;
+      }
+      
+      .button svg {
+        width: 34px;
+        height: 34px;
+      }
+      .button::before {
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+      }
 }
 @media only screen and (min-width: 601px) and (max-width: 821px) {
     .textWhite{
@@ -183,6 +227,28 @@
         margin-top: -1.2vh;
         font-size: 48px;
     }
+    svg text {
+        animation: stroke 5s infinite alternate;
+        stroke-width: 2;
+        stroke: #ffffff;
+        font-size: 72px;
+    }
+    .button {
+        width: 70px;
+        height: 70px;
+        border-radius: 50px;
+        margin-left: 38px;
+      }
+      
+      .button svg {
+        width: 48px;
+        height: 48px;
+      }
+      .button::before {
+        width: 75px;
+        height: 75px;
+        border-radius: 50px;
+      }
 }
 @media only screen and (min-width: 821px) and (max-width: 1025px) {
     .euImg,.eu-animation {
@@ -234,6 +300,29 @@
         margin-top: -1.2vh;
         font-size: 48px;
     }
+    svg text {
+        animation: stroke 5s infinite alternate;
+        stroke-width: 2;
+        stroke: #ffffff;
+        font-size: 100px;
+    }
+    .button {
+        width: 90px;
+        height: 90px;
+        border-radius: 50px;
+        margin-left: 50px;
+      }
+      
+      .button svg {
+        width: 58px;
+        height: 58px;
+      }
+      .button::before {
+        width: 95px;
+        height: 95px;
+        border-radius: 50px;
+      }
+
 }
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {
     .left{
@@ -253,6 +342,15 @@
         margin-top: -5.9vh;
         font-size: 75px;
     }
+    svg text {
+        animation: stroke 5s infinite alternate;
+        stroke-width: 2;
+        stroke: #ffffff;
+        font-size: 124px;
+    }
+    .button {
+        margin-left: 80px;
+      }
   }
 
 @media only screen and (min-width: 1441px) {

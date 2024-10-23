@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
 * {
     margin: 0;
     padding: 0;
@@ -31,7 +33,8 @@ body::-webkit-scrollbar-thumb {
 ,.front-animation,.eu-animation,.p1-animation,.p2-animation
 ,.p3-animation,.destaque-animation,.tituloProjeto,.left
 ,.right,.fa-html5,.fa-css3-alt,.fa-js,.fa-php,.fa-github
-,.fa-database,.titulo-rd{
+,.fa-database,.titulo-rd,#instragam,#whatsapp,#linkedlin
+,#email,#github{
     visibility: hidden;
 }
 
@@ -122,12 +125,12 @@ video {
     font-size: 102px;
     color: #fff;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    text-shadow: 6px 6px 8px #020096d8;
+    text-shadow: 6px 6px 8px #115fc4;
 }
 .textBlue{
-    margin-top: -57px;
+    margin-top: -64px;
     margin-left: 285px;
-    color: #020096;
+    color: #115fc4;
     font-size: 98px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-shadow: 5px 5px 10px #ffffff5e;
@@ -160,7 +163,7 @@ video {
     justify-content: center;
 }
 .destaque{
-    background: linear-gradient(45deg, #002168,  #1660ff, #6898ff);
+    background: linear-gradient(45deg, #0742c2,  #3474ff, #85abfd);
     background-size: 300% 100%;
     animation: degrade 7s linear infinite alternate;
     -webkit-background-clip: text;
@@ -208,9 +211,6 @@ video {
     color: #777bb4;
 }
 
-.skills-icons .fa-github:hover {
-    color: #000;
-}
 .skills-icons .fa-database:hover{
     color: #dada00;
 }
@@ -278,7 +278,6 @@ video {
     margin-bottom: 15vh;
     margin-top: 12vh;
 }
-@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
 
 svg {
 	font-family: "Russo One", sans-serif;
@@ -303,61 +302,78 @@ svg text {
 	}
 }
 .rede-sociais{
-    margin-top: 4vh;
+    margin-top: 7vh;
     display: flex;
-    justify-content: center
+    justify-content: center;
 }
-.rede-sociais button{
-    width: 100px;
-    height: 100px;
-    border-radius: 40px;
-    border: none;
-    box-shadow: 0 0 15px #fff;
-    transition: 0.8s ease-in-out;
-    margin: 4vw;
-  }
-  .rede-sociais button:hover{
-    transform: scale(1.2);
-  }
-  .linkedin{
-    background-color: #1572b6;
-  }
-  .linkedin-ic{
-    color: #fff;
-  }
-  .github{
-    background: #fff;
-  }
-  .github-ic{
-    color: #000;
-  }
-  .whatsapp{
-    background-color: #077707;
-  }
-  .whatsapp-ic{
-    color: #fff;
-  }
-  .email{
-    background-color: red;
-  }
-  .email-ic{
-    color: #fff;
-  }
-  .instagram{
-    background: #833ab4;
-    background: linear-gradient(
-      to right,
-      #833ab4,#fd1d1d,#fcb045
-    );
-  }
-  .instagram-ic{
-    color: #fff;
-  }
-  .icone {
-  text-decoration: none;
-  margin: 0;
+.button {
+  cursor: pointer;
+  width: 105px;
+  height: 105px;
+  border-radius: 50px;
+  border: none;
+  position: relative;
+  z-index: 0;
   display: flex;
+  align-items: center;
   justify-content: center;
-  text-align: center;
-  font-size: 79px;
+  margin-left: 100px;
+  transition: 0.1s;
+}
+
+.button svg {
+  color: white;
+  width: 70px;
+  height: 70px;
+  z-index: 9;
+  transition: color 0.3s ease;
+}
+
+.button:active {
+  transform: scale(0.85);
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  background-color: #313131;
+  border-radius: 50px;
+  z-index: -1;
+  border: 0px solid rgba(255, 255, 255, 0.411);
+  transition: 0.4s;
+}
+
+.button:hover::before {
+  width: 0px;
+  height: 0px;
+}
+
+.button:nth-child(1) {
+  background: linear-gradient(120deg, #833ab4, #fd1d1d, #fcb045);
+}
+.button:nth-child(2) {
+  background: linear-gradient(120deg, #02ff2c, #008a12);
+}
+.button:nth-child(3) {
+  background: linear-gradient(120deg, #02ff2c, #008a12);
+}
+
+.button:nth-child(3) {
+  background: rgb(69, 187, 255);
+}
+
+.button:nth-child(4) {
+  background: rgb(255, 33, 33);
+}
+
+.button:nth-child(5) {
+  background: rgb(255, 255, 255);
+}
+.button:hover:nth-child(5) svg {
+  color: black;
+}
+.button:active {
+  transform: scale(0.85);
 }

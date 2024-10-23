@@ -134,4 +134,35 @@ revelar.reveal('.titulo-rd',
     distance: '130px',
     origin:'bottom'
 })
+revelar.reveal('#instragam',
+    {
+    duration: 3000,
+    distance: '130px',
+    origin:'top'
+})
+revelar.reveal('#whatsapp',
+    {
+    duration: 3000,
+    distance: '130px',
+    origin:'bottom'
+})
+revelar.reveal('#linkedlin',
+    {
+    duration: 3000,
+    distance: '130px',
+    origin:'top'
+})
+revelar.reveal('#email',
+    {
+    duration: 3000,
+    distance: '130px',
+    origin:'bottom'
+})
+revelar.reveal('#github',
+    {
+    duration: 3000,
+    distance: '130px',
+    origin:'top'
+})
+
 
