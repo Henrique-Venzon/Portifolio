@@ -63,7 +63,9 @@ body::-webkit-scrollbar-thumb {
 .certificado-left {
   visibility: hidden;
 }
-
+.imagemFundo{
+  position: fixed;
+}
 
 .apresentacao {
   width: 100%;

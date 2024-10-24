@@ -16,7 +16,6 @@ header h1{
                  0 0 15px #000000,
                  0 0 30px black;
 }
-
 @media only screen and (max-width: 600px) {
     header h1{
         font-size: 28px;
@@ -29,7 +28,6 @@ header h1{
     .eu h1 {
         font-size: 5.5rem;
     }
-    
     .eu p {
         font-size: 3rem;
     }
