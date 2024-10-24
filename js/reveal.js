@@ -116,17 +116,16 @@ revelar.reveal('.tituloProjeto',
 revelar.reveal('.left',
     {
     duration: 3500,
-    delay:650,
     distance: '130px',
     origin:'left'
 })
 revelar.reveal('.right',
     {
     duration: 3800,
-    delay:650,
     distance: '130px',
     origin:'right'
 })
+
 revelar.reveal('.titulo-rd',
     {
     duration: 3000,
@@ -164,5 +163,80 @@ revelar.reveal('#github',
     distance: '130px',
     origin:'top'
 })
+revelar.reveal('.keyboard',
+    {
+    duration: 3000,
+    distance: '130px',
+    origin:'top'
+})
 
+function applyScrollReveal() {
+    if (window.innerWidth < 1067) {
+      ScrollReveal().reveal('.certificado-left', {
+        duration: 3500,
+        distance: '130px',
+        origin: 'left',
+        reset: true
+      });
+  
+      ScrollReveal().reveal('.certificado-right', {
+        duration: 3800,
+        distance: '130px',
+        origin: 'left',
+        reset: true
+      });
+  
+      ScrollReveal().reveal('.certificado-top', {
+        duration: 3800,
+        distance: '130px',
+        origin: 'right',
+        reset: true
+      });
+    }else if (window.innerWidth < 1615){
+        ScrollReveal().reveal('.certificado-left', {
+            duration: 3500,
+            distance: '130px',
+            origin: 'left',
+            reset: true
+          });
+      
+          ScrollReveal().reveal('.certificado-right', {
+            duration: 3800,
+            distance: '130px',
+            origin: 'bottom',
+            reset: true
+          });
+      
+          ScrollReveal().reveal('.certificado-top', {
+            duration: 3800,
+            distance: '130px',
+            origin: 'right',
+            reset: true
+          });
+    } else {
+      ScrollReveal().reveal('.certificado-left', {
+        duration: 3500,
+        distance: '130px',
+        origin: 'left',
+        reset: true 
+      });
+  
+      ScrollReveal().reveal('.certificado-right', {
+        duration: 3800,
+        distance: '130px',
+        origin: 'right',
+        reset: true
+      });
+  
+      ScrollReveal().reveal('.certificado-top', {
+        duration: 3800,
+        distance: '130px',
+        origin: 'top',
+        reset: true
+      });
+    }
+  }
 
+applyScrollReveal();
+
+window.addEventListener('resize', applyScrollReveal);

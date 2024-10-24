@@ -64,6 +64,11 @@
         margin-top: -1.2vh;
         font-size: 26px;
     }
+    .card-certificado{
+        margin: 3vh;
+        width: 290px;
+        height: 240px;
+      }
     svg text {
         animation: stroke 5s infinite alternate;
         stroke-width: 2;
@@ -153,6 +158,11 @@
         margin-top: -1.2vh;
         font-size: 26px;
     }
+    .card-certificado{
+        margin: 3vh;
+        width: 400px;
+        height: 270px;
+      }
     svg text {
         animation: stroke 5s infinite alternate;
         stroke-width: 2;
